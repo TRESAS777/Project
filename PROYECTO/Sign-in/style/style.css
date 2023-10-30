@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: blue;
+}
+
+.login_content {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    height: 90vh;
+    background-image: url(image/fondo.jpg);
+    background-size: cover;
+    margin: 10%;
+}
+
+.login_content .margin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 90vh;
+    background-color: #eaeaeaeb;
+}
+.login_content .margin .logo {
+    justify-content: flex-start;
+}
+.login_content .margin .logo img {
+    
+    max-height: 70px;
+}
